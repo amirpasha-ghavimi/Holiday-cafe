@@ -1,0 +1,725 @@
+.App {
+  text-align: center;
+}
+
+.maindiv {
+  background-color: #242121;
+  margin: -10px;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.sitebars {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px;
+}
+
+.cafename {
+  font-size: 20px;
+  color: white;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translatex(-57%);
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.login {
+  font-size: 14px;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  padding: 3px;
+  margin-left: 3px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+}
+
+.login:hover {
+  background-color: rgb(200, 86, 14);
+  transition-duration: 0.2s;
+}
+
+.header {
+  text-align: center;
+  background-color: #d5d5d5;
+  color: white;
+  padding: 10px;
+  padding-top: 30px;
+  margin-bottom: -10px;
+  background-image: url('./maindiv/images/download.jpg');
+  background-size: 100%;
+  background-position-y: 20%;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 8fr 1fr;
+}
+
+.main img {
+  transition: transform 0.5s ease;
+}
+
+.main img:hover {
+  transform: scale(1.10);
+}
+
+.menu {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 13px;
+  background-color: rgb(200, 86, 14);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-top: 10px;
+  height: auto;
+}
+
+html {scroll-behavior: smooth;}
+
+.menu button {
+  background-color: rgb(200, 86, 14);
+}
+
+.menu1 {
+  position: sticky;
+  top: 1px;
+}
+
+.menu .option-menu {
+  text-align: center;
+  font-size: 180%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: solid bisque;
+  border-radius: 20px;
+  margin-top: 12%;
+  padding: 25%;
+}
+
+.options {
+  margin-bottom: 2%;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.options img {
+  border-radius: 20px;
+}
+
+.options h2 {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-right: 3%;
+  border-bottom: solid white;
+  padding: 15px;
+  margin-top: 5%;
+}
+
+.hot-drinks {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  column-gap: 9%;
+  row-gap: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+}
+
+.hot-drink {
+  text-align: center;
+  background-color: rgb(200, 86, 14);
+  padding: 1%;
+  border-radius: 20px;
+}
+
+.cold-drinks {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  column-gap: 9%;
+  row-gap: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+}
+
+.cold-drink {
+  text-align: center;
+  background-color: rgb(200, 86, 14);
+  padding: 1%;
+  border-radius: 20px;
+}
+
+.main-foods {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  column-gap: 9%;
+  row-gap: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+}
+
+.main-food {
+  text-align: center;
+  background-color: rgb(200, 86, 14);
+  padding: 1%;
+  border-radius: 20px;
+}
+
+.appetizers {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  column-gap: 9%;
+  row-gap: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+}
+
+.appetizer {
+  text-align: center;
+  background-color: rgb(200, 86, 14);
+  padding: 1%;
+  border-radius: 20px;
+}
+
+.desserts {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  column-gap: 9%;
+  row-gap: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+}
+
+.dessert {
+  text-align: center;
+  background-color: rgb(200, 86, 14);
+  padding: 1%;
+  border-radius: 20px;
+}
+
+.footer {
+  text-align: right;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1em;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  gap: 13%;
+}
+
+.footer li {
+  list-style: square;
+  direction: rtl;
+  margin-top: 5%;
+}
+
+.about-us {
+  padding: 2%;
+}
+
+.uppage {
+  color: white;
+  position: sticky;
+  bottom: 4%;
+  font-size: 60px;
+  margin-left: 4%;
+  margin-right: 100%;
+}
+
+.form {
+  background-image: url('./maindiv/images/Website\ Background\ Image\ Size\ PSD\ Vector\ Photo.jpg');
+  background-size: cover;
+  text-align: center;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  margin: -8px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.form form {
+  background-color: #242121;
+  border-radius: 30px;
+  padding: 1% 3% 2% 7%;
+}
+
+.form input {
+  border-radius: 20px;
+  padding: 0px 30px;
+  height: 35px;
+}
+
+.form h1 {
+  color: rgb(54, 7, 146);
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 30px;
+  margin-bottom: 50px;
+  margin-right: 80px;
+}
+
+.form p {
+  color: red;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.user {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  text-align: center;
+  gap: 9%;
+  margin-left: 20%;
+  font-size: 21px;
+}
+
+.formcomplite {
+  display: flex; 
+  flex-direction: row;
+  gap: 10px;
+}
+
+.formcomplite p {
+  color: white;
+  font-size: 15px;
+  padding-top: 8px;
+}
+
+.formcomplite1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-right: 80px;
+  background-color: white;
+}
+
+
+/*   media querys:  */
+
+
+@media screen and (max-width: 1150px){
+  .menu .option-menu {
+    margin-top: 25%;
+  }
+
+  .uppage {
+    bottom: 3%;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .main img {
+    transition: transform 0.5s ;
+  }
+  
+  .main img:hover {
+    transform: scale(1.05);
+  }
+
+  .footer {
+    font-size: 15px;
+  }
+
+  .main h2 {
+    font-size: 25px;
+  }
+
+  .menu .option-menu {
+    margin-top: 40%;
+  }
+
+  .uppage {
+    font-size: 50px;
+  }
+}
+
+
+@media screen and (max-width: 870px) {
+  .menu .option-menu {
+    margin-top: 35px;
+    padding: 20px;
+  }
+
+  .footer {
+    font-size: 12px;
+  }
+
+  .main img:hover {
+    transform: scale(1.03);
+  }
+
+  .form h1 {
+    margin-right: 70px;
+  }
+
+  .formcomplite p {
+    font-size: 14px;
+  }
+
+  .form form {
+    padding-left: 85px;
+  }
+}
+
+
+@media screen and (max-width: 770px){
+  .header img {
+    width: 130px;
+    height: 130px;
+  }
+
+  .main h2 {
+    font-size: 22px;
+  }
+
+  .options {
+    font-size: 15px;
+  }
+
+  .options h6 {
+    font-size: 11px;
+  }
+
+  .uppage {
+    margin-left: 8%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main {
+    display: grid;
+    grid-template-rows: 0.5fr 10fr;
+    grid-template-columns: none;
+  }
+
+  .header img {
+    height: 130px;
+    width: 130px;
+  }
+
+  .header {
+    padding-bottom: 1px;
+    padding-top: 20px;
+  }
+
+  .main h2 {
+    font-size: 25px;
+  }
+
+  .options {
+    grid-row: 2;
+    margin-top: -9%;
+  }
+
+  .menu {
+    margin: 6% 7% 5% 7%;
+    border-radius: 20px;
+    padding: 0px;
+  }
+
+  .menu .option-menu {
+    font-size: 190%;
+    padding: 18px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .uppage {
+    font-size: 45px;
+    margin-left: 8%;
+    bottom: 3%;
+  }
+
+  .sitebars {
+    padding: 7px;
+  }
+
+  .cafename {
+    font-size: 17px;
+  }
+
+  .login {
+    font-size: 12px;
+  }
+
+  .user {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 582px) {
+  .menu .option-menu {
+    margin-top: -1px;
+    margin-bottom: 15px;
+    margin-right: 7px;
+    margin-left: 7px;
+  }
+
+  .header img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .header h3 {
+    font-size: 80%;
+  }
+
+  .footer {
+    font-size: 10px;
+  }
+
+  .uppage {
+    margin-left: 7%;
+    bottom: 3%;
+  }
+
+  .sitebars {
+    padding: 5px;
+  }
+
+  .cafename {
+    font-size: 15px;
+  }
+
+  .login {
+    font-size: 11px;
+  }
+
+  .user {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 493px) {
+  .header {
+    background-size: 120%;
+    background-position-y: 50%;
+    background-position-x: 50%;
+  }
+
+  .header img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .header h3 {
+    font-size: 70%;
+  }
+
+  .menu .option-menu {
+    font-size: 120%;
+    padding: 5%;
+    column-gap: 2%;
+  }
+  
+  .main h2 {
+    font-size: 20px;
+  }
+
+  .footer {
+    font-size: 10px;
+  }
+
+  .uppage {
+    font-size: 40px;
+    margin-left: 8%;
+    bottom: 4%;
+  }
+
+  .login {
+    font-size: 10px;
+  }
+
+  .user {
+    font-size: 15px;
+  }
+
+  .formcomplite p {
+    font-size: 10px;
+  }
+
+  .form h1 {
+    font-size: 20px;
+    margin-right: 40px;
+  }
+
+  .form input {
+    height: 30px;
+  }
+
+  .form form {
+    padding: 5px 5px 20px 30px;
+  }
+}
+
+@media screen and (max-width: 446px) {
+  .header {
+    background-size: 120%;
+    background-position-y: 50%;
+    background-position-x: 50%;
+  }
+
+  .header img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .header h3 {
+    font-size: 60%;
+  }
+
+  .menu {
+    margin-bottom: 25%;
+  }
+
+  .menu .option-menu {
+    padding: 4%;
+    border-radius: 20%;
+  }
+
+  .options {
+    margin-top: -25%;
+  }
+
+  .hot-drinks , .cold-drinks , .appetizers , .main-foods , .desserts {
+    column-gap: 3%;
+  }
+
+  .footer {
+    font-size: 8px;
+  }
+
+  .uppage {
+    margin-left: 10%;
+    bottom: 3%;
+  }
+
+  .sitebars {
+    padding: 5px;
+  }
+
+  .cafename {
+    font-size: 12px;
+  }
+
+  .login {
+    font-size: 9px;
+  }
+
+  .user {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 371px) {
+  .header {
+    background-size: 120%;
+    background-position-y: 50%;
+    background-position-x: 50%;
+  }
+
+  .header img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .header h3 {
+    font-size: 50%;
+  }
+
+  .hot-drink , .cold-drink , .appetizer , .main-food , .dessert , img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .hot-drink , .cold-drink , .appetizer , .main-food , .dessert {
+    padding: 2% 2% 30% 2%;
+  }
+
+  .options h2 {
+    font-size: 20px;
+  }
+
+  .hot-drink , .cold-drink , .appetizer , .main-food , .dessert {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 358px) {
+  .menu .option-menu {
+    font-size: 120%;
+    margin: -10px 5px 15px 0px;
+    padding: 4%;
+  }
+
+  .options h2 {
+    font-size: 15px;
+  }
+
+  .hot-drink , .cold-drink , .appetizer , .main-food , .dessert {
+    font-size: 13px;
+    padding: 2% 2% 35% 2%;
+  }
+
+  .header {
+    background-size: 120%;
+    background-position-y: 50%;
+    background-position-x: 50%;
+  }
+
+  .footer {
+    font-size: 8px;
+  }
+
+  .sitebars {
+    padding: 3px;
+  }
+
+  .cafename {
+    font-size: 10px;
+  }
+
+  .login {
+    font-size: 8px;
+  }
+
+  .user {
+    font-size: 11px;
+  }
+}
