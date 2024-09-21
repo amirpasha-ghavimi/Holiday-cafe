@@ -1,6 +1,6 @@
 import nirvana from "../images/nirvana.jpg";
 import limonade from '../images/limonade.jpg';
-import darknight from "../images/یشقندهلاف.jpg";
+import darknight from "../images/dark.jpg";
 import hamoon from "../images/hamoon.jpg";
 import icetea from "../images/icetea.jpg";
 import zaferoon from "../images/zaferoon.jpg";
