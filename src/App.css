@@ -109,6 +109,13 @@ html {scroll-behavior: smooth;}
   padding: 25%;
 }
 
+.menu .option-menu:hover {
+  color: white;
+  background-color: #242121;
+  border-color: #242121;
+  transition-duration: 0.3s;
+}
+
 .options {
   margin-bottom: 2%;
   font-family: "Baloo Bhaijaan 2", sans-serif;
@@ -251,6 +258,11 @@ html {scroll-behavior: smooth;}
   font-size: 60px;
   margin-left: 4%;
   margin-right: 100%;
+}
+
+.uppage:hover {
+  color: rgb(200, 86, 14);
+  transition-duration: 0.2s;
 }
 
 .form {
